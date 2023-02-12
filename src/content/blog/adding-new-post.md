@@ -7,7 +7,7 @@ featured: true
 draft: false
 tags:
   - docs
-ogImage: ""
+ogImage: ''
 description:
   Some rules & recommendations for creating or adding new posts using AstroPaper
   theme.
@@ -48,10 +48,10 @@ If you omit `tags` in a blog post (in other words, if no tag is specified), the 
 export const blogSchema = z.object({
   // ---
   // replace "others" with whatever you want
-  tags: z.array(z.string()).default(["others"]),
+  tags: z.array(z.string()).default(['others']),
   ogImage: z.string().optional(),
   description: z.string(),
-});
+})
 ```
 
 ### Sample Frontmatter
@@ -71,7 +71,7 @@ tags:
   - some
   - example
   - tags
-ogImage: ""
+ogImage: ''
 description: This is the example description of the example post.
 ---
 ```
