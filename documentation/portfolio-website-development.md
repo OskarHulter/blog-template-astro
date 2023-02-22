@@ -1,6 +1,6 @@
 ---
 title: How Do I Develop My Portfolio Website & Blog
-author: Sat Naing
+author: Oskar Hulter
 pubDatetime: 2022-03-25T16:55:12.000+00:00
 postSlug: how-do-i-develop-my-portfolio-and-blog
 featured: false
@@ -50,7 +50,8 @@ In conclusion, these are the tech stack I've used for this project.
 
 ## Features
 
-The following are certain features of my portfolio and blog
+The following are certain features of my portfolio and blog.
+This blog is based on Sat Naing's awesome astro starter: astro-paper.
 
 ### SEO Friendly
 

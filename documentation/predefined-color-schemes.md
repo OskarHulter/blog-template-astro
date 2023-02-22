@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: Oskar Hulter
 pubDatetime: 2022-09-26T12:13:24Z
 title: Predefined color schemes
 postSlug: predefined-color-schemes

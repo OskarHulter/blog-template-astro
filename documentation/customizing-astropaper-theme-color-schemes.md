@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: Oskar Hulter
 pubDatetime: 2022-09-25T15:20:35Z
 title: Customizing AstroPaper theme color schemes
 postSlug: ''
@@ -25,10 +25,10 @@ AstroPaper theme will include light and dark mode by default. In other words, th
 ```js
 // file: src/config.ts
 export const SITE = {
-  website: 'https://astro-paper.pages.dev/',
-  author: 'Sat Naing',
-  desc: 'A minimal, responsive and SEO-friendly Astro blog theme.',
-  title: 'AstroPaper',
+  website: 'https://oskarhulter.com,
+  author: 'Oskar Hulter',
+  desc: 'A minimal, responsive and SEO-friendly Astro blog.',
+  title: `Oskar Hulter's dev blog`,
   ogImage: 'astropaper-og.jpg',
   lightAndDarkMode: true, // true by default
   postPerPage: 3,
@@ -45,7 +45,7 @@ Thus, to choose primary color scheme instead of prefers-color-scheme, we have to
 
 ```js
 /* file: public/toggle-theme.js */
-const primaryColorScheme = '' // "light" | "dark"
+const primaryColorScheme = 'dark' // "light" | "dark"
 
 // Get theme data from local storage
 const currentTheme = localStorage.getItem('theme')
@@ -69,7 +69,7 @@ The **primaryColorScheme** variable can hold two values\_ `"light"`, `"dark"`. Y
 
 ## Customize color schemes
 
-Both light & dark color schemes of AstroPaper theme can be customized. You can do this in `src/styles/base.css` file.
+Both light & dark color schemes can be customized in `src/styles/base.css` file.
 
 ```css
 /* file: src/styles/base.css */

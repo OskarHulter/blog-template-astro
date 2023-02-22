@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Oskar Hulter</h1>
+      <h1>Dev Blog</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -40,24 +40,12 @@ const socialCount = SOCIALS.filter(social => social.active).length
         </svg>
       </a>
       <p>
-        I'm a full stack software engineer specialized in web and JavaScript.
-        I love to build things and share my knowledge with others.
-        My current passion is levraging runtime type safety to maximize security, maintainability and velocity.
-        
-        That's why my first multipart series of blog posts is about Zod, a TypeScript-first runtime type system for JavaScript.
-        I will review my experience with the latest packages and share my thoughts on how to use them.
+       Hi there! I'm <strong>Oskar</strong>, a <strong>JavaScript</strong> focused software engineer from Sweden.
       </p>
       <p>
-        Read the blog posts or check
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+        I like building things and sharing knowledge. This is my personal blog where I write about software development.
       </p>
       {
-        // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
             <div class="social-links">Social Links:</div>
@@ -66,7 +54,6 @@ const socialCount = SOCIALS.filter(social => social.active).length
         )
       }
     </section>
-
     <Hr />
 
     {

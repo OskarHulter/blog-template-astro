@@ -2,25 +2,48 @@
 layout: ../layouts/AboutLayout.astro
 title: 'About'
 ---
+## Why?
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+This is the personal blog of Oskar Hulter, a  software developer from Sweden.
+The goal of this blog is to learn and teach programming concepts in public.
+This site has recently launched and will be progressivley updated and improved
+upon.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+If you have any feedback, please reach out!
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+## Who are you?
+
+I am a senior full stack developer with a focus on JavaScript, TypeScript, Node
+and the React ecosystem.
+
+My experience ranges from startup hacking to enterprise consulting for multinationals.
+
+I have a bachelor’s degree in systems science from Luleå Tekniska Universitet.
+
+## What are your favorite topics?
+
+I am passionate about type-safety, domain driven design, mono-repos and
+functional programming.
+
+## What are your favorite tools?
+
+My favorite tools include tailwind, vite, nx, zod, react-query, next and astro.
+
+## What are you currently learning?
+
+I am currently learning AI, rust, python and the new wave of meta frameworks.
+
+## What are your other interests?
+
+My other interests include music, finance, philosophy and psychology.
 
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
 ## Features
 
-Here are certain features of this site.
+Here are a few features of this site.
 
 - fully responsive and accessible
 - SEO-friendly
@@ -32,5 +55,6 @@ Here are certain features of this site.
 - sitemap & rss feed
 - highly customizable
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+If you like this theme, check out the template
+[here](https://github.com/satnaing/astro-paper).
+Big thanks to Satnaing, learn more about him [on his website](https://satnaing.dev/blog).

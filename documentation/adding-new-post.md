@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: Oskar Hulter
 pubDatetime: 2022-09-23T15:22:00Z
 title: Adding new posts in AstroPaper theme
 postSlug: adding-new-posts-in-astropaper-theme

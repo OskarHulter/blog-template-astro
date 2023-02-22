@@ -80,8 +80,12 @@ const fallbackImageURL = new URL(SITE.ogImage, Astro.url.origin).href
         />
       )
     }
-
+    
+    
     <script is:inline src="/toggle-theme.js"></script>
+   
+   <!-- Plausible Analytics -->
+    <script defer data-domain="oskarhulter.com" src="https://plausible.io/js/script.js"></script>
   </head>
   <body>
     <slot />
