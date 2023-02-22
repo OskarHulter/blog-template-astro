@@ -3,7 +3,7 @@ title: Blog launch
 author: Oskar Hulter
 pubDatetime: 2023-02-17T03:42:51Z
 postSlug: blog-launch
-featured: true
+featured: false
 draft: false
 tags:
   - Announcement
@@ -33,15 +33,22 @@ It’s no secret that programming can be tricky. The key is to understand not ju
 
 ## Goals
 
-## Learning together
-
 The best way to learn something is to teach it. The act of explaining
 topics in a simple manner will reveal gaps in your understanding. The gaps are
 usually small enough that you can be productive at your job without fixing them.
 A clear understanding of the underlying principles makes the process of learning
 new technologies easier.
 
-Fundamental concepts vs specific details
+## Example
+
+```js title="example.js"
+console.log("Hello World")
+```
+
+Fundamental
+ concepts
+  vs
+   specific details
 
 - Are more applicable
 - Don't change as often

@@ -4,8 +4,10 @@ import react from '@astrojs/react'
 import remarkToc from 'remark-toc'
 import remarkCollapse from 'remark-collapse'
 import sitemap from '@astrojs/sitemap'
+import remarkBreaks from 'remark-breaks'
+import compress from 'astro-compress'
 
-// https://astro.build/config
+// https://astro.build/config https://oskarhulter.github.io
 export default defineConfig({
   site: 'https://oskarhulter.com',
   integrations: [
@@ -16,6 +18,7 @@ export default defineConfig({
     }),
     react(),
     sitemap(),
+    compress(),
   ],
   markdown: {
     remarkPlugins: [
@@ -26,6 +29,7 @@ export default defineConfig({
           test: 'Table of contents',
         },
       ],
+      remarkBreaks,
     ],
     shikiConfig: {
       theme: 'one-dark-pro',
